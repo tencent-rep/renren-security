@@ -35,6 +35,11 @@
             <artifactId>renren-api</artifactId>
             <version>${renren-version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.renren</groupId>
+            <artifactId>renren-mq</artifactId>
+            <version>${renren-version}</version>
+        </dependency>
     </dependencies>
 	<build>
 		<finalName>renren-security</finalName>

@@ -13,6 +13,7 @@
 		<module>renren-gen</module> <!-- 代码生成器模块 -->
 		<module>renren-api</module> <!-- API模块 -->
 		<module>renren-web</module> <!-- 管理后台模块 -->
+		<module>renren-mq</module> <!-- 消息队列 -->
 	</modules>
 
 	<properties>
