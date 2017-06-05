@@ -51,7 +51,7 @@ public class ActiveMqController extends AbstractController {
         try {
             System.out.println("从队列收到了消息：\t"
                     + tm.getText());
-            return R.ok("success").put("msgObj", tm).put("msg", tm.getText());
+            return R.ok("success").put("msg", tm.getText());
         } catch (JMSException e) {
             e.printStackTrace();
             return R.error();
